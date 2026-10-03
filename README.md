@@ -51,15 +51,17 @@ Tempo utrzymujesz rytmicznym wiosłowaniem — bez ciągłego trzymania klawiszy
 - **Unity 6** — wersja edytora: `6000.2.6f2` (lub kompatybilna z Unity 6)
 - Render Pipeline: **URP**
 - Input System (nowy)
+- **[Git LFS](https://git-lfs.com/)** — duża scena (`Scene1`) i pliki audio są trzymane przez LFS
 
 ---
 
 ## Jak uruchomić projekt
 
 1. Zainstaluj [Unity Hub](https://unity.com/download) i Unity **6000.2.6f2** (lub nowszą Unity 6).
-2. Sklonuj repozytorium:
+2. Zainstaluj Git LFS (`git lfs install`), potem sklonuj repozytorium:
    ```bash
-   git clone <URL-repozytorium>
+   git lfs install
+   git clone https://github.com/DawidKaczy/Aqua-Drift.git
    ```
 3. W Unity Hub → **Open** → wybierz folder projektu.
 4. Otwórz scenę z `Assets/Scenes/` i wciśnij **Play**.
