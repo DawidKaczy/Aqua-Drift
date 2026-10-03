@@ -93,10 +93,13 @@ Wybrane skrypty:
 
 ---
 
-## Build
+## Build / pobieranie gry
 
-Gotowy build Windows znajduje się lokalnie w folderze `xBuildGierka` (poza tym repozytorium).  
-W Unity: **File → Build Settings → Build**.
+Gotowy build Windows jest w **[Releases](https://github.com/DawidKaczy/Aqua-Drift/releases)** (`Aqua-Drift-Windows.zip`).
+
+Rozpakuj archiwum i uruchom `GierkaNaZaliczenie.exe`.
+
+Własny build w Unity: **File → Build Settings → Build**.
 
 ---
 
